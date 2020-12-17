@@ -1,0 +1,151 @@
+body{
+    background-image: url('https://cdn.shopify.com/s/files/1/0026/6941/2441/products/the-joyful-home-company-wallpaper-mural-marble-wallpaper-mural-4691229835353_1024x1024.jpg?v=1584889849');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    text-align: -webkit-center;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    color: #621d29;
+    text-shadow: 1px 1px #a33d42;
+    font-style: italic;
+    font-weight: bold;  
+}
+.pomodorodiv{
+
+    width: 900px;
+    height: 900px;
+    background-image: linear-gradient(120deg, rgb(129, 70, 82), rgb(175, 39, 39));
+    border: 1px solid rgb(231, 86, 86);
+    border: outset;
+    box-shadow: 0px 1px 7px 0px;
+    border-radius: 50%;    
+}
+.pomodorodiv:hover{
+    background-image: linear-gradient(120deg, rgb(139, 54, 71), rgb(200, 51, 51));
+}
+.pomodoro {
+    display: flex;
+    width: 650px;
+    height: 500px;
+    border: 1px solid rgb(195, 73, 73);
+    background-image: linear-gradient(120deg, rgba(129, 70, 82, 0.596), rgba(175, 39, 39, 0.63));
+    border-radius: 10px;
+    position: relative;
+    bottom: -150px;
+    border-bottom: solid;
+    border-right: solid;
+}
+/*
+.pomodoro:hover{
+    
+}
+*/
+.workdiv{
+        width: 220px;
+        height: 300px;
+        font-size: 40px;
+        margin-top: 60px;
+        color: white;
+        text-shadow: 1px 1px #662629;
+}
+.work{
+    display: flex;
+    position: relative;
+    bottom: -190px;
+    width: 90px;
+    border-radius: 15px;
+    border: inset;
+    color: crimson;
+    font-size: 30px;
+    background-color: rgb(204, 204, 204);
+    justify-content: center;
+}
+
+
+.cyclediv{
+        width: 220px;
+        height: 300px;
+        font-size: 40px;
+        margin-top: 60px;
+        color: white;
+        text-shadow: 1px 1px #662629;
+}
+.cycle{
+    display: flex;
+    position: relative;
+    bottom: -190px;
+    width: 90px;
+    border-radius: 15px;
+    border: inset;
+    color: crimson;
+    font-size: 30px;
+    background-color: rgb(204, 204, 204);
+    justify-content: center;
+}
+.otherdiv{
+        width: 220px;
+        height: 300px;
+        font-size: 40px;
+        margin-top: 60px;
+        border: 1px solid rgb(195, 73, 73);
+        color: white;
+        text-shadow: 1px 1px #662629;
+
+}
+.start{
+    width: 90px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: green;
+    font-size: 22px;
+    font-weight: bold;  
+    position: absolute;
+    right: 800px;
+    bottom: 300px;
+}
+.start:hover{
+    background-image: linear-gradient(120deg, rgb(107, 172, 98), rgb(16, 117, 55));
+    color: white;
+    border-bottom: solid;
+    
+}
+.reset{
+    width: 90px;
+    height: 50px;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;  
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    right: 600px;
+    bottom: 300px;  
+}
+
+.reset:hover{
+    background-image: linear-gradient(120deg, rgb(177, 98, 108), rgb(187, 42, 42));
+    color: white;
+    border-bottom: solid;
+   
+}
+.pause{
+    width: 90px;
+    height: 50px;
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;  
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    right: 700px;
+    bottom: 300px;
+}
+.pause:hover{
+    background-image: linear-gradient(120deg, rgb(98, 130, 172), rgb(35, 53, 156));
+    color: white;
+    border-bottom: solid;
+    
+}
